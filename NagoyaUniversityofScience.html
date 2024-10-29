@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>名古屋理科大学</title>
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="bootstrap.js"></script>
+
+    <!-- font -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'phu2zdk',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</head>
+
+<body>
+    <!-- top section -->
+    <div class="top">
+    </div>
+
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg my-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                <div class="logo-text">
+                    <h5 class="text-dark mb-0 mt-2">名古屋理科大学</h5>
+                    <h4 class="text-dark mt-1">理工学部 情報システム学科</h4>
+                </div>
+            </a>
+
+            <!-- toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navigation link -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-house-door nav-icon"></i>
+                            ホーム
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-arrows-fullscreen nav-icon"></i>
+                            概要
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-person-vcard nav-icon"></i>
+                            教員紹介
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-pc-display-horizontal nav-icon"></i>
+                            教育
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-eyeglasses nav-icon"></i>
+                            研究
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-envelope nav-icon"></i>
+                            ニュース
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel section -->
+    <div class="carousel container-fluid p-0">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"
+            data-bs-interval="4000">
+            <!-- carousel indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+
+            <!-- photo -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/carousel1-1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/carousel2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/carousel3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/carousel4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/carousel5.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+
+            <!-- chevron button -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- news section -->
+    <section id="news">
+        <div class="margin-x">
+            <div class="container-fluid">
+                <!-- title -->
+                <div class="row mx-auto">
+                    <div class="col-md-6 mx-auto text-center">
+                        <i class="bi bi-newspaper primary-color"></i>
+                        <h1 class="title-english">INFORMATION</h1>
+                        <p>
+                            トピックごとのニュースを掲示
+                        </p>
+                    </div>
+                </div>
+
+                <!-- news buttons -->
+                <div class="buttons">
+                    <div class="row g-3 mt-3 mb-3">
+                        <div class="col-lg-3 col-6 text-center">
+                            <div class="news-button">
+                                <h3>すべて</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <div class="news-button">
+                                <h3>トピックス</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <div class="news-button">
+                                <h3>イベント</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <div class="news-button">
+                                <h3>プレリリース</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- news cards -->
+                <div class="row g-4">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="news-card">
+                            <img src="./img/news1.png" alt="">
+                            <p class="mt-3">2024/6/15</p>
+                            <h6 class="truncate">
+                                わが校、AI部門で優秀賞を受賞 - 学科の先端技術と革新的研究が評価されました
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="news-card">
+                            <img src="./img/news2.png" alt="">
+                            <p class="mt-3">2024/6/15</p>
+                            <h6 class="truncate">
+                                学科、済陽和代さんの論文「AIについて」が最先端学会で受賞 - 先端技術と革新的研究が高く評価されました
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="news-card">
+                            <img src="./img/news3.png" alt="">
+                            <p class="mt-3">2024/6/15</p>
+                            <h6 class="truncate">
+                                学科、チャールズ先生の授業が国内外で好評 - 教育の質と影響力が広く認められました
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="news-card">
+                            <img src="./img/news4.png" alt="">
+                            <p class="mt-3">2024/6/15</p>
+                            <h6 class="truncate">
+                                オープンキャンパスを実施 - 学部や研究室の魅力を広く公開します
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="news-card">
+                            <img src="./img/news5.png" alt="">
+                            <p class="mt-3">2024/6/15</p>
+                            <h6 class="truncate">
+                                地域社会と関わるイベントを実施 - 地域の課題に対応する取り組みを推進します
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="news-card">
+                            <img src="./img/news6.png" alt="">
+                            <p class="mt-3">2024/6/15</p>
+                            <h6 class="truncate">
+                                プログラミング教室を実施 - プログラミングの基礎から応用まで学べる機会を提供します
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- more button -->
+        <div class="parent-container mt-5">
+            <div class="more-button">
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature section -->
+    <section id="feature">
+        <div class="margin-x">
+            <div class="container-fluid">
+                <!-- title -->
+                <div class="row mx-auto">
+                    <div class="col-md-6 mx-auto text-center">
+                        <i class="bi bi-lightbulb primary-color"></i>
+                        <h1 class="title-english">FEATURE</h1>
+                        <p>
+                            本学科の三つの特徴を紹介
+                        </p>
+                    </div>
+                </div>
+
+                <!-- First feature section -->
+                <div class="feature-section">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="feature-image">
+                                <img src="./img/feature1.png" alt="学生たちが協力している様子">
+                                <div class="number-overlay">01</div>
+                                <div class="feature-text-overlay">
+                                    <h2>問題の対象を数理的・物理的に把握する力を身につける</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 d-flex align-items-center justify-content-center">
+                            <div class="content">
+                                <p class="mt-3">
+                                    1・2年次では、数学、物理、そして情報工学の基礎を学ぶことで、問題の数理的・物理的な把握力を深め、その解決能力を身に付けます。さらに、ソフトウェアやネットワーク、数理といった情報工学の基礎力を充実させ、将来的に必要な知識とスキルを確実に習得します。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second feature section (with number on the right) -->
+                <div class="feature-section">
+                    <div class="row">
+                        <div class="col-md-7 order-md-2"> <!-- Reverse content order for large screens -->
+                            <div class="feature-image">
+                                <img src="./img/feature2.png" alt="学生たちが協力している様子">
+                                <div class="number-overlay">02</div>
+                                <div class="feature-text-overlay">
+                                    <h2>PBL等の双方向の演習や実験を重視する</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 d-flex align-items-center justify-content-center order-md-1">
+                            <!-- Reverse content order for large screens -->
+                            <div class="content">
+                                <p class="mt-3">
+                                    PBL（課題解決型学習）やアクティブラーニング（能動的学修）、ディスカッションなど、双方向の演習や実験を重視します。こうした学習方法を通じて、理論と実践を融合させ、実世界での問題解決能力を養います。また、現場での実践的な経験を通じて、チームワークやリーダーシップを発揮するスキルも磨かれます。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- third feature section (with number on the right) -->
+                <div class="feature-section">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="feature-image">
+                                <img src="./img/feature3.png" alt="学生たちが協力している様子">
+                                <div class="number-overlay">03</div>
+                                <div class="feature-text-overlay">
+                                    <h2>課題解決能力を養い、社会的能力を高める</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 d-flex align-items-center justify-content-center">
+                            <div class="content">
+                                <p class="mt-3">
+                                    4年次では、1年間研究室に所属し、卒業研究に取り組みます。この卒業研究において、未知の問題に挑戦することで課題解決能力を養い、学術的な深さと専門知識を磨きます。また、研究過程でのディスカッションや共同作業を通じて、コミュニケーション力やチームワークなどの社会的能力を向上させる機会とします。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- laboratory section -->
+    <section id="laboratory">
+        <div class="margin-x">
+            <div class="container-fluid">
+                <!-- title -->
+                <div class="row mx-auto">
+                    <div class="col-md-6 mx-auto text-center">
+                        <i class="bi bi-house primary-color"></i></i>
+                        <h1 class="title-english">LABORATORY</h1>
+                        <p>
+                            各研究室の紹介
+                        </p>
+                    </div>
+                </div>
+
+                <!-- lab -->
+                <div class="row g-4 mt-0">
+                    <!-- lab section 1 -->
+                    <h4 class="mb-0 primary-color">データサイエンス分野</h4>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory mx-auto text-center">
+                            <img src="./img/lab1-1.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">中村研究室</h4>
+                                    <p class="text-white">機械学習、データマイニング、<br>ビッグデータ解析、予測モデル</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory mx-auto text-center">
+                            <img src="./img/lab1-2.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">佐藤研究室</h4>
+                                    <p class="text-white">データ可視化、統計解析、<br>パターン認識、自然言語処理</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- lab section 2 -->
+                    <h4 class="mb-0 mt-5 primary-color">ソフトウェアデザイン分野</h4>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory  mx-auto text-center">
+                            <img src="./img/lab2-1.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">高橋研究室</h4>
+                                    <p class="text-white">ソフトウェア設計パターン、マイクロサービス、<br>リファクタリング、クラウドアーキテクチャ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory mx-auto text-center">
+                            <img src="./img/lab2-2.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">山田研究室</h4>
+                                    <p class="text-white">アジャイル開発、テスト駆動開発、<br>CI/CD、ソフトウェア品質保証</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory mx-auto text-center">
+                            <img src="./img/lab2-3.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">田中研究室</h4>
+                                    <p class="text-white">ユーザーエクスペリエンス、UI/UXデザイン、<br>ヒューマンコンピュータインタラクション、可用性テスト</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory  mx-auto text-center">
+                            <img src="./img/lab2-4.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">岡本研究室</h4>
+                                    <p class="text-white">ソフトウェアパターン、ドメイン駆動設計、<br>マイクロサービスアーキテクチャ、ソフトウェア品質管理</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- lab section 3 -->
+                    <h4 class="mb-0 mt-5 primary-color">インテリジェントシステム分野</h4>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory  mx-auto text-center">
+                            <img src="./img/lab3-1.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">竹内研究室</h4>
+                                    <p class="text-white">ロボット制御、機械学習とロボティクス、<br>センサーネットワーク、自律システム</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory mx-auto text-center">
+                            <img src="./img/lab3-2.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">伊藤研究室</h4>
+                                    <p class="text-white">パターン認識と画像処理、音声認識、<br>バイオメトリクス、信号処理</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="laboratory mx-auto text-center">
+                            <img src="./img/lab3-3.png" alt="">
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">加藤研究室</h4>
+                                    <p class="text-white">分散人工知能、マルチエージェントシステム、<br>知識表現と推論、意思決定支援</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- more button -->
+        <div class="parent-container mt-5">
+            <div class="more-button">
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- voice section -->
+    <section id="voice">
+        <div class="margin-x">
+            <div class="container-fluid">
+                <!-- title -->
+                <div class="row mx-auto">
+                    <div class="col-md-6 mx-auto text-center">
+                        <i class="bi bi-chat-dots-fill primary-color"></i>
+                        <h1 class="title-english mt-3">VOICE</h1>
+                        <p class="">
+                            先輩たちの声
+                        </p>
+                    </div>
+                </div>
+
+                <!-- voices -->
+                <div class="voice-section mt-3">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="senior">
+                                <img src="./img/senior1.png" alt="先輩1">
+                                <div class="voice-text-overlay text-center">
+                                    <p>データサイエンス分野</p>
+                                    <h4>田中 美希 さん</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="senior">
+                                <img src="./img/senior2.png" alt="先輩2">
+                                <div class="voice-text-overlay text-center">
+                                    <p>ソフトウェアデザイン分野</p>
+                                    <h4>山田 太郎 さん</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="senior">
+                                <img src="./img/senior3.png" alt="先輩3">
+                                <div class="voice-text-overlay text-center">
+                                    <p>データサイエンス分野</p>
+                                    <h4>鈴木 健太 さん</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="senior">
+                                <img src="./img/senior4.png" alt="先輩4">
+                                <div class="voice-text-overlay text-center">
+                                    <p>インテリジェントシステム分野</p>
+                                    <h4>小林 真子 さん</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- more button -->
+        <div class="parent-container mt-5">
+            <div class="more-button">
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- graduate-school section -->
+    <div class="graduate-school d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                    <!-- title -->
+                    <div class="row mx-auto">
+                        <div class="mx-auto text-center">
+                            <i class="bi bi-mortarboard primary-color"></i>
+                            <h1 class="title-english mt-3 text-white">GRADUATE SCHOOL</h1>
+                            <p class="text-white">
+                                大学院情報
+                            </p>
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <p class="text-white my-3">
+                        名古屋理科大学の大学院は、先端技術と創造性を融合させた教育プログラムを提供しています。我々の大学院プログラムでは、学生一人ひとりが自身の専門分野でのリーダーシップを発揮できるように支援します。豊富な研究資源と先進的な施設を活用し、学際的なアプローチでの問題解決能力を育成します。また、産業界との密接な連携を通じて、実践的なスキルを身につけ、現実世界での即戦力となる準備を整えます。我々の大学院は、革新的な研究と教育を通じて、未来の情報技術のパイオニアを育成することを使命としています。
+                    </p>
+                </div>
+            </div>
+
+            <!-- more button -->
+            <div class="parent-container mt-4">
+                <div class="more-icon-graduate-effect">
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!-- logo -->
+                    <div class="col-sm-6">
+                        <div class="footer-brand">
+                            <img src="./img/logo.png" alt="Logo" class="mt-0">
+                            <div class="text-container">
+                                <h3 class="text-dark mb-0 mt-3">名古屋理科大学</h3>
+                                <p class="text-dark">NAGOYA UNIVERSITY OF SCIENCE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- sns -->
+                    <div class="col-sm-6 d-flex justify-content-sm-end align-items-center">
+                        <div class="sns">
+                            <a class="bi bi-twitter text-info" href="#"></a>
+                            <a class="bi bi-youtube text-danger" href="#"></a>
+                            <a class="bi bi-facebook text-primary" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- botttom section -->
+    <div class="footer-bottom text-center">
+        <p>© 2024 Nagoya University of Science. All Rights Reserved</p>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var carousel = document.getElementById('carouselExampleCaptions');
+
+            // 初回ロード時にアクティブな画像をズームイン
+            var initialActiveImage = carousel.querySelector('.carousel-item.active img');
+            if (initialActiveImage) {
+                initialActiveImage.style.transform = 'scale(1.1)';
+                initialActiveImage.style.transition = 'transform 5s ease';
+            }
+
+            carousel.addEventListener('slid.bs.carousel', function () {
+                // 現在アクティブな画像を取得
+                var activeImage = carousel.querySelector('.carousel-item.active img');
+                if (activeImage) {
+                    // アクティブな画像をズームイン
+                    activeImage.style.transform = 'scale(1.1)';
+                    activeImage.style.transition = 'transform 5s ease';
+                }
+
+                // 前の画像のズームをリセット
+                var prevImages = carousel.querySelectorAll('.carousel-item:not(.active) img');
+                prevImages.forEach(function (img) {
+                    img.style.transform = 'scale(1)';
+                });
+            });
+        });
+
+
+        // テキストを指定文字数で省略する関数
+        function truncateText(selector, maxLength) {
+            const elements = document.querySelectorAll(selector);
+            elements.forEach(element => {
+                let text = element.innerText;
+                if (text.length > maxLength) {
+                    element.innerText = text.substr(0, maxLength) + '...';
+                }
+            });
+        }
+        // 32文字以上で省略
+        document.addEventListener('DOMContentLoaded', function () {
+            truncateText('.truncate', 32);
+        });
+    </script>
+
+
+</body>
+
+</html>
